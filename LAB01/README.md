@@ -1,6 +1,6 @@
 ## Getting Started
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Welcome to the LAB01. Here is a guideline to help you get started with Java RMI.
 
 ## Folder Structure
 
@@ -11,8 +11,15 @@ The workspace contains two folders by default, where:
 
 Meanwhile, the compiled output files will be generated in the `bin` folder by default.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## There will be 4 files in this LAB01:
+* Hello.java - *to create remote interface*
+* ImpleExample.java - *to implement the remote interface __Hello__*
+* HelloClient.java - *the client application for the RMI*
+* HelloServer.java - *the server application for the RMI*
 
-## Dependency Management
+## To run this application
+1. Compile the files with `javac *.java` command
+2. Run `java HelloServer` in first terminal.
+3. Run `java HelloServer` in second terminal.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+> rmiregistry is not needed to run before this as it is created in the _HelloServer.java_ file.
