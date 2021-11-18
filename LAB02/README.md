@@ -11,7 +11,7 @@ The workspace contains two folders by default, where:
 
 Meanwhile, the compiled output files will be generated in the `bin` folder by default.
 
-## There will be 4 files in this LAB01:
+## There will be 4 files in this LAB02:
 * ExtendThreadClassTest.java - *the main application for running thread*
 * ExtendThreadClassTest2.java - *modified application for running thread*
 * PrintNameThread.java - *the actual class for printing the name of the threads*
