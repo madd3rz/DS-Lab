@@ -11,8 +11,10 @@ The workspace contains two folders by default, where:
 
 Meanwhile, the compiled output files will be generated in the `bin` folder by default.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## There will be 4 files in this LAB02:
+* RunnableThreadTest1.java - *the main application for running 3 threads*
+* RunnableThreadTest2.java - *modified application for running 2 threads*
+* PrintNameRunnable.java - *the class for printing, implementing Runnable*
+* MyOwnRunnableClass.java - *modified class for printing, implementing Runnable*
 
-## Dependency Management
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
