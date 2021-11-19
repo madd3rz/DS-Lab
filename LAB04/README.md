@@ -11,8 +11,16 @@ The workspace contains two folders by default, where:
 
 Meanwhile, the compiled output files will be generated in the `bin` folder by default.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## There will be 9 files in this LAB02:
+* PrintStringsThread.java - ***unsynchronized*** *function to start threading and run the print function in * ***TwoStrings.java***
+* PrintStringsThreadSynchronized.java - ***synchronized*** *function to start threading and run the print function in * ***TwoStringsSynchronized.java***
+* PrintStringsThreadSync2.java - ***synchronized*** *function to start threading and run the print function in* ***TwoStringsSync2.java***
+* UnsynchronizedExample.java - *the main application for running 3 threads* ***unsynchronized***
+* SynchronizedExample1.java - *modified application for running 3 threads in* ***synchronized***
+* SynchronizedExample2.java - *modified application for running 3 threads in* ***synchronized through synced statement on common obj***
+* TwoStrings.java - *actual function to execute print statements*
+* TwoStringsSynchronized.java - *actual function to execute print statements*
+* TwoStringsSync2.java - *actual function to execute print statements*
 
-## Dependency Management
+* PrintNameThread2.java - *modified class for printing the name of the threads*
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
