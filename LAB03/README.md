@@ -11,7 +11,7 @@ The workspace contains two folders by default, where:
 
 Meanwhile, the compiled output files will be generated in the `bin` folder by default.
 
-## There will be 4 files in this LAB02:
+## There will be 4 files in this LAB03:
 * RunnableThreadTest1.java - *the main application for running 3 threads*
 * RunnableThreadTest2.java - *modified application for running 2 threads*
 * PrintNameRunnable.java - *the class for printing, implementing Runnable*
